@@ -42,7 +42,7 @@ const HomePage = (props) => {
   }, []);
 
   return (
-    <div>
+    <div className="home-container">
       <pre className="description" ref={typing}></pre>
       <div className="example">
         <p ref={counterLink}></p>
